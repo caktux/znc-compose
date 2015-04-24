@@ -1,0 +1,14 @@
+data:
+  # build: data
+  image: znccompose_data
+  volumes:
+    - "/var/znc/.znc"
+
+znc:
+  build: .
+  ports:
+    - "6697:6697"
+  volumes_from:
+    - data
+  # volumes:
+  #   - "~/.znc:/var/znc/.znc"
