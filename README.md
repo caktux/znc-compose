@@ -1,7 +1,7 @@
 ZNC-compose
 ===
 
-docker-compose setup to run ZNC in a Docker container. Includes the `znc-otr` and `znc-push` modules.
+docker-compose setup to run ZNC in a Docker container. Includes the `znc-otr`, `znc-push` and `znc-playback` modules.
 
 ### Configuration
 
