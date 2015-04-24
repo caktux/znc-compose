@@ -55,6 +55,7 @@ RUN adduser --system --group --home /var/znc --shell /bin/bash znc
 USER znc
 ENV HOME /var/znc
 
+EXPOSE 6667
 EXPOSE 6697
 
 CMD ["-n", "-c", "/supervisord.conf"]
