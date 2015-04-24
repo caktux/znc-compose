@@ -11,5 +11,6 @@ znc:
     - "6697:6697"
   volumes_from:
     - data
+  restart: always
   # volumes:
   #   - "~/.znc:/var/znc/.znc"
