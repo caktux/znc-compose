@@ -1,4 +1,4 @@
-FROM ubuntu:utopic
+FROM ubuntu:vivid
 MAINTAINER caktux
 
 # Create znc user since it complains like a little bitch about being root
