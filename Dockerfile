@@ -1,4 +1,4 @@
-FROM ubuntu:utopic
+FROM ubuntu:vivid
 MAINTAINER caktux
 
 ENV DEBIAN_FRONTEND noninteractive
@@ -11,7 +11,7 @@ RUN apt-get dist-upgrade -q -y
 # Let our container upgrade itself
 RUN apt-get install -q -y unattended-upgrades
 
-# Install usual tools, always useful for introspection 
+# Install usual tools, always useful for introspection
 RUN apt-get install -q -y wget vim
 
 # Install dependencies
