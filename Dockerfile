@@ -1,4 +1,4 @@
-FROM ubuntu:vivid
+FROM ubuntu:wily
 MAINTAINER caktux
 
 ENV DEBIAN_FRONTEND noninteractive
